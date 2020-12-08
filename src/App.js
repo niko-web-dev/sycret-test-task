@@ -1,9 +1,10 @@
 import './App.scss';
+import ScrollContainer from "./container/ScrollContainer";
 
 function App() {
   return (
     <div className="App">
-    hello
+      <ScrollContainer/>
     </div>
   );
 }
